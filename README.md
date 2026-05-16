@@ -6,6 +6,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=flat&logo=pandas)](https://pandas.pydata.org)
 [![Power BI](https://img.shields.io/badge/Power%20BI-Live%20Dashboard-F2C811?style=flat&logo=powerbi&logoColor=black)](https://app.powerbi.com/reportEmbed?reportId=e14e77e1-f15d-4fce-b43a-9b625758b448&autoAuth=true&ctid=00449dde-2c61-47fa-81ef-e0761befef8d)
 [![Tableau](https://img.shields.io/badge/Tableau-Live%20Dashboard-E97627?style=flat&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/frederick.opoku.afriyie6847/viz/ChrispoEPOLTDRealEstateAnalytics)
+[![Live App](https://img.shields.io/badge/Live%20App-Render-46E3B7?style=flat&logo=render&logoColor=white)](https://chrispo-real-estate-analytics.onrender.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
@@ -103,6 +104,13 @@ Shows the complete repricing story across all phases for both Barekese and Buokr
 - Property type mix (Apartment / House / Land)
 - Sale price distribution by location
 - Monthly rental rates by unit
+
+---
+
+## 🚀 Live App
+
+> **[chrispo-real-estate-analytics.onrender.com](https://chrispo-real-estate-analytics.onrender.com/)**
+> Interactive Plotly Dash app — Pricing Journey · Booking Performance · Property Portfolio
 
 ---
 
