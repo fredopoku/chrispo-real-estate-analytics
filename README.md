@@ -147,7 +147,7 @@ Shows the complete repricing story across all phases for both Barekese and Buokr
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/chrispo-real-estate-analytics.git
+git clone https://github.com/fredopoku/chrispo-real-estate-analytics.git
 cd chrispo-real-estate-analytics
 
 # 2. Install dependencies
@@ -198,8 +198,8 @@ This project is part of my broader engagement with Chrispo E.P.O LTD, which also
 MSc Computer Science (Merit) · Software Engineer & AI Researcher · Vision'97 Co-Founder
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-1A3A6B?style=flat)](https://frederick-opoku-afriyie.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/YOUR_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/frederick-opoku-afriyie-ba3137335/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/fredopoku)
 
 ---
 
