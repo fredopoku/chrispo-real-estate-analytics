@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: chrispo-real-estate-analytics
+    runtime: python
+    buildCommand: pip install -r dashboard/requirements.txt
+    startCommand: gunicorn dashboard.app:server
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
