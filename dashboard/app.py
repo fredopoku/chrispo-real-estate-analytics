@@ -40,10 +40,11 @@ STATUS_COLORS = {
 
 # ── Load data ──────────────────────────────────────────────
 BASE = os.path.dirname(os.path.abspath(__file__))
+DATA = os.path.join(BASE, "..", "data")
 
-df_b = pd.read_csv(os.path.join(BASE, "chrispo_bookings_data.csv"))
-df_p = pd.read_csv(os.path.join(BASE, "chrispo_pricing_journey.csv"))
-df_l = pd.read_csv(os.path.join(BASE, "chrispo_listings_data.csv"))
+df_b = pd.read_csv(os.path.join(DATA, "chrispo_bookings_data.csv"))
+df_p = pd.read_csv(os.path.join(DATA, "chrispo_pricing_journey.csv"))
+df_l = pd.read_csv(os.path.join(DATA, "chrispo_listings_data.csv"))
 
 # ── App ────────────────────────────────────────────────────
 app = Dash(__name__, title="Chrispo E.P.O LTD Analytics",
