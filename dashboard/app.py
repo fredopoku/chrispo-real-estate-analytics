@@ -48,7 +48,9 @@ df_l = pd.read_csv(os.path.join(DATA, "chrispo_listings_data.csv"))
 
 # ── App ────────────────────────────────────────────────────
 app = Dash(__name__, title="Chrispo E.P.O LTD Analytics",
-           suppress_callback_exceptions=True)
+           suppress_callback_exceptions=True,
+           meta_tags=[{"name": "viewport",
+                        "content": "width=device-width, initial-scale=1"}])
 server = app.server  # for deployment
 
 # ── Layout helpers ─────────────────────────────────────────
@@ -57,12 +59,13 @@ def kpi_card(label, value, colour=BLUE, sub=None):
         html.P(label, style={"fontSize": "11px", "color": GREY,
                               "margin": "0 0 4px", "textTransform": "uppercase",
                               "letterSpacing": "0.05em"}),
-        html.P(value, style={"fontSize": "22px", "fontWeight": "700",
-                              "color": colour, "margin": "0",
-                              "whiteSpace": "nowrap"}),
+        html.P(value, className="kpi-card-value",
+               style={"fontSize": "22px", "fontWeight": "700",
+                      "color": colour, "margin": "0",
+                      "whiteSpace": "nowrap"}),
         html.P(sub, style={"fontSize": "11px", "color": GREY, "margin": "4px 0 0"})
         if sub else html.Div(),
-    ], style={
+    ], className="kpi-card", style={
         "background": WHITE,
         "borderRadius": "10px",
         "padding": "16px 20px",
@@ -86,6 +89,7 @@ def chart_card(children, style=None):
         "padding": "20px",
         "boxShadow": "0 2px 12px rgba(26,58,107,0.08)",
         "marginBottom": "16px",
+        "minWidth": "0",
     }
     if style:
         base.update(style)
@@ -332,7 +336,7 @@ app.layout = html.Div([
                 "fontSize": "12px", "fontWeight": "600",
             }),
         ]),
-    ], style={
+    ], className="app-header", style={
         "display": "flex", "justifyContent": "space-between",
         "alignItems": "center", "padding": "20px 32px 16px",
         "background": WHITE,
@@ -347,10 +351,10 @@ app.layout = html.Div([
                     style=TAB_STYLE),
         html.Button("Property Portfolio", id="tab-portfolio", n_clicks=0,
                     style=TAB_STYLE),
-    ], style=NAV_STYLE),
+    ], className="app-nav", style=NAV_STYLE),
 
     # ── Content ─────────────────────────────────────────
-    html.Div(id="page-content", style={
+    html.Div(id="page-content", className="page-content", style={
         "padding": "24px 32px",
         "background": LIGHT,
         "minHeight": "calc(100vh - 120px)",
@@ -367,7 +371,7 @@ def pricing_page():
             kpi_card("Barekese Phase 3 Occupancy", "58%", GREEN, "After repricing"),
             kpi_card("Revenue uplift", "+290%", GREEN, "Phase 1 → Phase 3"),
             kpi_card("Buokrom Phase 1 → Phase 3", "15% → 61%", BLUE, "3 pricing phases"),
-        ], style={"display": "grid",
+        ], className="kpi-grid", style={"display": "grid",
                   "gridTemplateColumns": "repeat(4, 1fr)",
                   "gap": "12px", "marginBottom": "20px"}),
 
@@ -400,7 +404,7 @@ def pricing_page():
                 dcc.Graph(figure=make_rate_fig(), config={"displayModeBar": False},
                           style={"height": "300px"}),
             ], style={"flex": "1"}),
-        ], style={"display": "flex", "gap": "16px"}),
+        ], className="chart-row", style={"display": "flex", "gap": "16px"}),
 
         # Chart row 2
         chart_card([
@@ -419,7 +423,7 @@ def booking_page():
             kpi_card("Barekese revenue", f"₵{bar_rev:,.0f}", BLUE, "All phases"),
             kpi_card("Buokrom revenue", f"₵{buo_rev:,.0f}", GREEN, "All phases"),
             kpi_card("Total bookings", f"{total_book:,}", GOLD),
-        ], style={"display": "grid",
+        ], className="kpi-grid", style={"display": "grid",
                   "gridTemplateColumns": "repeat(4, 1fr)",
                   "gap": "12px", "marginBottom": "20px"}),
 
@@ -461,7 +465,7 @@ def booking_page():
                           config={"displayModeBar": False},
                           style={"height": "260px"}),
             ], style={"flex": "1"}),
-        ], style={"display": "flex", "gap": "16px"}),
+        ], className="chart-row", style={"display": "flex", "gap": "16px"}),
     ])
 
 def portfolio_page():
@@ -475,7 +479,7 @@ def portfolio_page():
             kpi_card("Units sold", str(units_sold), GREEN, "Combined"),
             kpi_card("Offinso value", f"₵{off['Price_GHS'].sum()/1e6:.1f}M", GOLD),
             kpi_card("Amrahia value", f"₵{amr['Price_GHS'].sum()/1e6:.1f}M", BLUE),
-        ], style={"display": "grid",
+        ], className="kpi-grid", style={"display": "grid",
                   "gridTemplateColumns": "repeat(5, 1fr)",
                   "gap": "12px", "marginBottom": "20px"}),
 
@@ -493,7 +497,7 @@ def portfolio_page():
                           config={"displayModeBar": False},
                           style={"height": "300px"}),
             ], style={"flex": "1"}),
-        ], style={"display": "flex", "gap": "16px"}),
+        ], className="chart-row", style={"display": "flex", "gap": "16px"}),
 
         # Listings table
         chart_card([

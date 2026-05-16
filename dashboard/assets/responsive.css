@@ -1,0 +1,59 @@
+* { box-sizing: border-box; }
+
+/* ── Tablet (≤ 900px) ────────────────────────────────────── */
+@media screen and (max-width: 900px) {
+    .kpi-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+/* ── Mobile (≤ 768px) ────────────────────────────────────── */
+@media screen and (max-width: 768px) {
+    .app-header {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 14px 16px !important;
+        gap: 8px;
+    }
+
+    .app-nav {
+        padding: 0 12px !important;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+    .app-nav::-webkit-scrollbar { display: none; }
+    .app-nav button {
+        white-space: nowrap;
+        padding: 10px 14px !important;
+        font-size: 12px !important;
+    }
+
+    .page-content {
+        padding: 14px 12px !important;
+    }
+
+    .chart-row {
+        flex-direction: column !important;
+    }
+
+    .kpi-card-value {
+        font-size: 18px !important;
+        white-space: normal !important;
+    }
+}
+
+/* ── Small mobile (≤ 480px) ──────────────────────────────── */
+@media screen and (max-width: 480px) {
+    .kpi-grid {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .kpi-card-value {
+        font-size: 15px !important;
+    }
+
+    .app-header h1 {
+        font-size: 18px !important;
+    }
+}
