@@ -198,7 +198,7 @@ This project is part of my broader engagement with Chrispo E.P.O LTD, which also
 MSc Computer Science (Merit) · Software Engineer & AI Researcher · Vision'97 Co-Founder
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-1A3A6B?style=flat)](https://frederick-opoku-afriyie.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/frederick-opoku-afriyie-ba3137335/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/frederick-opoku-afriyie/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/fredopoku)
 
 ---
