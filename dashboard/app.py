@@ -49,9 +49,27 @@ df_l = pd.read_csv(os.path.join(DATA, "chrispo_listings_data.csv"))
 # ── App ────────────────────────────────────────────────────
 app = Dash(__name__, title="Chrispo E.P.O LTD Analytics",
            suppress_callback_exceptions=True,
+           assets_folder=os.path.join(BASE, "assets"),
            meta_tags=[{"name": "viewport",
                         "content": "width=device-width, initial-scale=1"}])
 server = app.server  # for deployment
+
+_ICON_TAGS = (
+    '<link rel="icon" type="image/png" href="/_dash-assets/logo-192.png">'
+    '<link rel="apple-touch-icon" sizes="180x180" href="/_dash-assets/logo-180.png">'
+    '<meta name="theme-color" content="#1A3A6B">'
+    '<meta name="mobile-web-app-capable" content="yes">'
+    '<meta name="apple-mobile-web-app-capable" content="yes">'
+    '<meta name="apple-mobile-web-app-title" content="Chrispo Analytics">'
+    '<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">'
+)
+
+@server.after_request
+def inject_icons(response):
+    if "text/html" in response.content_type:
+        html = response.get_data(as_text=True)
+        response.set_data(html.replace("</head>", _ICON_TAGS + "</head>", 1))
+    return response
 
 # ── Layout helpers ─────────────────────────────────────────
 def kpi_card(label, value, colour=BLUE, sub=None):
