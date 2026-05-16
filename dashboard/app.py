@@ -11,6 +11,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output, callback
+from flask import send_from_directory
 import os
 
 # ── Brand colours ──────────────────────────────────────────
@@ -70,6 +71,12 @@ def inject_icons(response):
         html = response.get_data(as_text=True)
         response.set_data(html.replace("</head>", _ICON_TAGS + "</head>", 1))
     return response
+
+# iOS looks for the icon at the root path as a fallback
+@server.route("/apple-touch-icon.png")
+@server.route("/apple-touch-icon-precomposed.png")
+def apple_touch_icon():
+    return send_from_directory(os.path.join(BASE, "assets"), "logo-180.png", mimetype="image/png")
 
 # ── Layout helpers ─────────────────────────────────────────
 def kpi_card(label, value, colour=BLUE, sub=None):
