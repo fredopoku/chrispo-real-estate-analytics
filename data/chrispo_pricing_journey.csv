@@ -1,0 +1,8 @@
+Property,Business_Model,Phase,Phase_Start,Phase_End,Duration_Days,Weekday_Rate_GHS,Weekend_Rate_GHS,Weekday_Rate_USD,Weekend_Rate_USD,Event_Rate_GHS,Occupancy_Rate_Pct,Est_Monthly_Revenue_GHS,Pricing_Decision
+Barekese,Short Stay / Event Hosting,Phase 1 – Launch (Overpriced),2022-01-01,2022-06-30,180,1500,2000,150.0,200.0,5000.0,18.0,8100.0,Low bookings – price too high
+Barekese,Short Stay / Event Hosting,Phase 2 – First Adjustment,2022-07-01,2022-12-31,183,1200,1600,120.0,160.0,4000.0,31.0,11160.0,Moderate improvement
+Barekese,Short Stay / Event Hosting,Phase 3 – Optimised Pricing,2023-01-01,2023-12-31,364,900,1200,72.0,96.0,3000.0,58.0,15660.0,Strong occupancy after data-driven reprice
+Barekese,Short Stay / Event Hosting,Phase 4 – Stable Growth,2024-01-01,2024-06-30,181,1000,1300,68.97,89.66,3500.0,65.0,19500.0,Incremental price recovery with demand
+Buokrom,AirBnB / Short Let,Phase 1 – Launch (Overpriced),2023-01-01,2023-04-30,119,1100,1400,88.0,112.0,,15.0,4950.0,Very few bookings – price above market
+Buokrom,AirBnB / Short Let,Phase 2 – Market Research Adjustment,2023-05-01,2023-09-30,152,750,950,60.0,76.0,,42.0,9450.0,Competitive pricing benchmarked to local AirBnBs
+Buokrom,AirBnB / Short Let,Phase 3 – Optimised,2023-10-01,2024-06-30,273,800,1000,64.0,80.0,,61.0,14640.0,Strong consistent bookings

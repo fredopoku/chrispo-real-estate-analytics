@@ -1,0 +1,30 @@
+Listing_ID,Property_Name,Location,City,Region,Business_Model,Property_Type,Bedrooms,Bathrooms,Size_SqFt,Land_Size_Acres,Rent_Type,Price_GHS,Price_USD,Listing_Date,Year,Quarter,Year_Quarter,Status
+OFF-001,Chrispo Offinso Land 1,Offinso,Offinso,Ashanti Region,Sales & Rentals,Land,,,,0.5,,85000,8500.0,2022-03-15,2022,Q1,2022-Q1,Sold
+OFF-002,Chrispo Offinso Land 2,Offinso,Offinso,Ashanti Region,Sales & Rentals,Land,,,,1.0,,160000,16000.0,2022-07-20,2022,Q3,2022-Q3,Sold
+OFF-003,Chrispo Offinso Land 3,Offinso,Offinso,Ashanti Region,Sales & Rentals,Land,,,,0.5,,90000,7200.0,2023-01-10,2023,Q1,2023-Q1,Available
+OFF-004,Chrispo Offinso Land 4,Offinso,Offinso,Ashanti Region,Sales & Rentals,Land,,,,2.0,,310000,24800.0,2023-05-01,2023,Q2,2023-Q2,Available
+OFF-005,Chrispo Offinso Land 5,Offinso,Offinso,Ashanti Region,Sales & Rentals,Land,,,,0.75,,120000,9600.0,2023-08-14,2023,Q3,2023-Q3,Under Offer
+OFF-006,Chrispo Offinso Land 6,Offinso,Offinso,Ashanti Region,Sales & Rentals,Land,,,,0.5,,92000,6345.0,2024-01-22,2024,Q1,2024-Q1,Sold
+OFF-007,Chrispo Offinso Land 7,Offinso,Offinso,Ashanti Region,Sales & Rentals,Land,,,,1.5,,240000,16552.0,2024-03-01,2024,Q1,2024-Q1,Available
+OFF-008,Chrispo Offinso House 8,Offinso,Offinso,Ashanti Region,Sales & Rentals,House,3.0,2.0,1200.0,,,380000,38000.0,2022-05-10,2022,Q2,2022-Q2,Sold
+OFF-009,Chrispo Offinso House 9,Offinso,Offinso,Ashanti Region,Sales & Rentals,House,4.0,3.0,1600.0,,,520000,41600.0,2023-02-18,2023,Q1,2023-Q1,Available
+OFF-010,Chrispo Offinso House 10,Offinso,Offinso,Ashanti Region,Sales & Rentals,House,3.0,2.0,1100.0,,,350000,28000.0,2023-09-05,2023,Q3,2023-Q3,Sold
+OFF-011,Chrispo Offinso House 11,Offinso,Offinso,Ashanti Region,Sales & Rentals,House,2.0,1.0,900.0,,,260000,26000.0,2022-11-20,2022,Q4,2022-Q4,Rented
+OFF-012,Chrispo Offinso House 12,Offinso,Offinso,Ashanti Region,Sales & Rentals,House,4.0,2.0,1500.0,,,490000,33793.0,2024-02-10,2024,Q1,2024-Q1,Available
+OFF-013,Chrispo Offinso Apartment 13,Offinso,Offinso,Ashanti Region,Sales & Rentals,Apartment,2.0,1.0,800.0,,monthly,1800,180.0,2022-04-01,2022,Q2,2022-Q2,Rented
+OFF-014,Chrispo Offinso Apartment 14,Offinso,Offinso,Ashanti Region,Sales & Rentals,Apartment,3.0,2.0,1100.0,,monthly,2500,200.0,2023-06-15,2023,Q2,2023-Q2,Available
+OFF-015,Chrispo Offinso Apartment 15,Offinso,Offinso,Ashanti Region,Sales & Rentals,Apartment,1.0,1.0,600.0,,monthly,1200,96.0,2023-01-05,2023,Q1,2023-Q1,Rented
+AMR-001,Chrispo Amrahia House 1,Amrahia,Accra,Greater Accra Region,Sales & Rentals,House,4.0,3.0,2000.0,,,980000,98000.0,2022-02-14,2022,Q1,2022-Q1,Sold
+AMR-002,Chrispo Amrahia House 2,Amrahia,Accra,Greater Accra Region,Sales & Rentals,House,3.0,2.0,1500.0,,,750000,75000.0,2022-08-01,2022,Q3,2022-Q3,Available
+AMR-003,Chrispo Amrahia House 3,Amrahia,Accra,Greater Accra Region,Sales & Rentals,House,5.0,4.0,2800.0,,,1450000,116000.0,2023-01-20,2023,Q1,2023-Q1,Sold
+AMR-004,Chrispo Amrahia House 4,Amrahia,Accra,Greater Accra Region,Sales & Rentals,House,4.0,3.0,2100.0,,,1050000,84000.0,2023-07-10,2023,Q3,2023-Q3,Under Offer
+AMR-005,Chrispo Amrahia House 5,Amrahia,Accra,Greater Accra Region,Sales & Rentals,House,3.0,2.0,1600.0,,,820000,56552.0,2024-01-15,2024,Q1,2024-Q1,Sold
+AMR-006,Chrispo Amrahia House 6,Amrahia,Accra,Greater Accra Region,Sales & Rentals,House,6.0,5.0,3200.0,,,1900000,131034.0,2024-03-20,2024,Q1,2024-Q1,Available
+AMR-007,Chrispo Amrahia Apartment 7,Amrahia,Accra,Greater Accra Region,Sales & Rentals,Apartment,2.0,1.0,900.0,,monthly,3500,350.0,2022-05-01,2022,Q2,2022-Q2,Rented
+AMR-008,Chrispo Amrahia Apartment 8,Amrahia,Accra,Greater Accra Region,Sales & Rentals,Apartment,3.0,2.0,1300.0,,monthly,5000,500.0,2022-10-15,2022,Q4,2022-Q4,Rented
+AMR-009,Chrispo Amrahia Apartment 9,Amrahia,Accra,Greater Accra Region,Sales & Rentals,Apartment,2.0,1.0,950.0,,monthly,3800,304.0,2023-04-01,2023,Q2,2023-Q2,Available
+AMR-010,Chrispo Amrahia Apartment 10,Amrahia,Accra,Greater Accra Region,Sales & Rentals,Apartment,4.0,3.0,1700.0,,monthly,6500,520.0,2023-09-20,2023,Q3,2023-Q3,Rented
+AMR-011,Chrispo Amrahia Apartment 11,Amrahia,Accra,Greater Accra Region,Sales & Rentals,Apartment,1.0,1.0,600.0,,monthly,2200,152.0,2024-02-01,2024,Q1,2024-Q1,Rented
+AMR-012,Chrispo Amrahia Land 12,Amrahia,Accra,Greater Accra Region,Sales & Rentals,Land,,,,1.0,,420000,42000.0,2022-06-10,2022,Q2,2022-Q2,Sold
+AMR-013,Chrispo Amrahia Land 13,Amrahia,Accra,Greater Accra Region,Sales & Rentals,Land,,,,0.5,,230000,18400.0,2023-03-15,2023,Q1,2023-Q1,Available
+AMR-014,Chrispo Amrahia Land 14,Amrahia,Accra,Greater Accra Region,Sales & Rentals,Land,,,,2.0,,780000,53793.0,2024-01-08,2024,Q1,2024-Q1,Available
