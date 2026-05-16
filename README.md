@@ -4,8 +4,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=flat&logo=pandas)](https://pandas.pydata.org)
-[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=flat&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
-[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?style=flat&logo=tableau&logoColor=white)](https://tableau.com)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Live%20Dashboard-F2C811?style=flat&logo=powerbi&logoColor=black)](https://app.powerbi.com/reportEmbed?reportId=e14e77e1-f15d-4fce-b43a-9b625758b448&autoAuth=true&ctid=00449dde-2c61-47fa-81ef-e0761befef8d)
+[![Tableau](https://img.shields.io/badge/Tableau-Live%20Dashboard-E97627?style=flat&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/frederick.opoku.afriyie6847/viz/ChrispoEPOLTDRealEstateAnalytics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
@@ -109,6 +109,8 @@ Shows the complete repricing story across all phases for both Barekese and Buokr
 ## 📊 Dashboard Features
 
 ### Power BI — Operational Dashboard
+🔗 **[View Live Dashboard](https://app.powerbi.com/reportEmbed?reportId=e14e77e1-f15d-4fce-b43a-9b625758b448&autoAuth=true&ctid=00449dde-2c61-47fa-81ef-e0761befef8d)**
+
 - **KPI cards**: Occupancy rate, total revenue, avg nightly rate (per phase)
 - **Phase comparison bar chart**: Revenue before and after repricing
 - **Booking calendar heatmap**: Demand patterns by day of week and month
@@ -120,6 +122,8 @@ Shows the complete repricing story across all phases for both Barekese and Buokr
 | ![Power BI Pricing Journey](screenshots/powerbi_pricing_journey.png) | ![Power BI Booking Performance](screenshots/powerbi_booking_performance.png) | ![Power BI Portfolio](screenshots/powerbi_portfolio.png) |
 
 ### Tableau — Executive / Investor Dashboard
+🔗 **[View Live Dashboard](https://public.tableau.com/app/profile/frederick.opoku.afriyie6847/viz/ChrispoEPOLTDRealEstateAnalytics)**
+
 - **Occupancy trend line**: Phase-by-phase visualisation of pricing impact
 - **Revenue vs Rate scatter**: Showing the inverse relationship between price and volume
 - **Portfolio map**: Ghana locations with value indicators
