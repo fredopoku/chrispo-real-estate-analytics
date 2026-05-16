@@ -73,8 +73,11 @@ chrispo-real-estate-analytics/
 │
 ├── screenshots/
 │   ├── powerbi_pricing_journey.png
-│   ├── powerbi_bookings.png
-│   └── tableau_portfolio_overview.png
+│   ├── powerbi_booking_performance.png
+│   ├── powerbi_portfolio.png
+│   ├── tableau_pricing_journey.png
+│   ├── tableau_booking_performance.png
+│   └── tableau_portfolio.png
 │
 └── README.md
 ```
@@ -112,11 +115,19 @@ Shows the complete repricing story across all phases for both Barekese and Buokr
 - **Property listings table**: Offinso & Amrahia with status filters
 - **Slicers**: Property, year, booking type, status
 
+| Pricing Journey | Booking Performance | Portfolio Overview |
+|:-:|:-:|:-:|
+| ![Power BI Pricing Journey](screenshots/powerbi_pricing_journey.png) | ![Power BI Booking Performance](screenshots/powerbi_booking_performance.png) | ![Power BI Portfolio](screenshots/powerbi_portfolio.png) |
+
 ### Tableau — Executive / Investor Dashboard
 - **Occupancy trend line**: Phase-by-phase visualisation of pricing impact
 - **Revenue vs Rate scatter**: Showing the inverse relationship between price and volume
 - **Portfolio map**: Ghana locations with value indicators
 - **Price-to-occupancy funnel**: Decision framework used in the repricing work
+
+| Pricing Journey | Booking Performance | Portfolio Overview |
+|:-:|:-:|:-:|
+| ![Tableau Pricing Journey](screenshots/tableau_pricing_journey.png) | ![Tableau Booking Performance](screenshots/tableau_booking_performance.png) | ![Tableau Portfolio](screenshots/tableau_portfolio.png) |
 
 ---
 
